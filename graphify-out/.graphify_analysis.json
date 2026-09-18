@@ -1,0 +1,41 @@
+{
+  "communities": {
+    "0": [
+      "script",
+      "script_form",
+      "script_menu",
+      "script_menutoggle",
+      "script_status"
+    ]
+  },
+  "cohesion": {
+    "0": 0.4
+  },
+  "gods": [
+    {
+      "id": "script_menutoggle",
+      "label": "menuToggle",
+      "degree": 1
+    },
+    {
+      "id": "script_menu",
+      "label": "menu",
+      "degree": 1
+    },
+    {
+      "id": "script_form",
+      "label": "form",
+      "degree": 1
+    },
+    {
+      "id": "script_status",
+      "label": "status",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

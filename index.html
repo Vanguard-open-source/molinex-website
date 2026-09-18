@@ -10,6 +10,10 @@
     <title>Molinex | Intelligence for better rice milling</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="brand-overrides.css?v=3" />
+    <link rel="stylesheet" href="enhancements.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -92,12 +96,26 @@
         </div>
       </section>
 
+      <section class="section benefits-section" id="benefits">
+        <div class="container section-heading"><p class="eyebrow">From data to action</p><h2>Benefits your operation can feel.</h2><p>Molinex turns scattered records into practical decisions for every stage of the mill.</p></div>
+        <div class="container benefit-grid">
+          <article><span class="benefit-value">Less waste</span><h3>Find losses earlier.</h3><p>Track yield, merma and broken rice so your team can investigate deviations before they become expensive.</p></article>
+          <article><span class="benefit-value">More uptime</span><h3>Plan maintenance with context.</h3><p>Combine equipment history and operational signals to prioritize inspections and reduce unexpected stops.</p></article>
+          <article><span class="benefit-value">One shared view</span><h3>Make decisions together.</h3><p>Give managers, technicians and operators the same reliable picture of what is happening.</p></article>
+        </div>
+      </section>
+
+      <section class="section process-section" id="how-it-works">
+        <div class="container two-column process-intro"><div><p class="eyebrow">How it works</p><h2>A simple path from records to recommendations.</h2></div><p>Start with the information your mill already generates. Molinex organizes it, connects the context and surfaces the actions that deserve attention.</p></div>
+        <div class="container process-grid"><article><span>01</span><h3>Connect your data</h3><p>Bring together production, quality, raw material and maintenance records.</p></article><article><span>02</span><h3>See the operation</h3><p>Monitor indicators, lots and equipment history from one operational view.</p></article><article><span>03</span><h3>Act with confidence</h3><p>Use alerts and recommendations to investigate deviations and prioritize work.</p></article></div>
+      </section>
+
       <section class="section plans-section" id="plans">
         <div class="container section-heading"><p class="eyebrow">Plans that grow with your mill</p><h2>Start with what you need today.</h2><p>Choose the operational visibility that matches the size and goals of your business.</p></div>
         <div class="container plans-grid">
-          <article class="plan-card"><p class="plan-name">Basic</p><h3>For starting visibility</h3><p class="plan-description">Core tools for smaller mills beginning their digital journey.</p><ul><li>Operational dashboard</li><li>Production records</li><li>Basic quality indicators</li></ul><a class="button button-outline" href="#contact">Learn more</a></article>
-          <article class="plan-card popular"><span class="popular-label">Most flexible</span><p class="plan-name">Professional</p><h3>For connected operations</h3><p class="plan-description">More context and control for growing teams.</p><ul><li>Everything in Basic</li><li>Lot traceability</li><li>Maintenance management</li><li>Alerts and recommendations</li></ul><a class="button button-accent" href="#contact">Learn more</a></article>
-          <article class="plan-card"><p class="plan-name">Enterprise</p><h3>For advanced performance</h3><p class="plan-description">A broader view for complex operations and multiple teams.</p><ul><li>Everything in Professional</li><li>Advanced reports</li><li>Operational trends</li><li>Scalable support</li></ul><a class="button button-outline" href="#contact">Learn more</a></article>
+          <article class="plan-card"><p class="plan-name">Basic</p><h3>For starting visibility</h3><p class="plan-description">Core tools for smaller mills beginning their digital journey.</p><p class="plan-price">Custom quote</p><ul><li>Operational dashboard</li><li>Production records</li><li>Basic quality indicators</li></ul><a class="button button-outline" href="#contact">Learn more</a></article>
+          <article class="plan-card popular"><span class="popular-label">Most flexible</span><p class="plan-name">Professional</p><h3>For connected operations</h3><p class="plan-description">More context and control for growing teams.</p><p class="plan-price">Custom quote</p><ul><li>Everything in Basic</li><li>Lot traceability</li><li>Maintenance management</li><li>Alerts and recommendations</li></ul><a class="button button-accent" href="#contact">Learn more</a></article>
+          <article class="plan-card"><p class="plan-name">Enterprise</p><h3>For advanced performance</h3><p class="plan-description">A broader view for complex operations and multiple teams.</p><p class="plan-price">Custom quote</p><ul><li>Everything in Professional</li><li>Advanced reports</li><li>Operational trends</li><li>Scalable support</li></ul><a class="button button-outline" href="#contact">Learn more</a></article>
         </div>
       </section>
 
@@ -110,16 +128,18 @@
             <label for="mill-size">Mill size</label><select id="mill-size" name="mill-size" required><option value="">Select an option</option><option>Small</option><option>Medium</option><option>Large</option></select>
             <label for="message">What would you like to improve?</label><textarea id="message" name="message" rows="4" required></textarea>
             <button class="button" type="submit">Request information</button>
-            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="form-status" id="form-status" role="status" aria-live="polite">Demo form: connect a backend before collecting customer requests.</p>
           </form>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-grid"><div><a class="brand footer-brand" href="#top" aria-label="Molinex home"><span class="footer-icon-crop"><img src="assets/molinex-logo-transparent.png" alt="" /></span><span class="footer-wordmark">Molinex</span></a><p>Operational intelligence for better rice milling.</p></div><div><h3>Explore</h3><a href="#solution">Solution</a><a href="#features">Features</a><a href="#plans">Plans</a></div><div><h3>Legal</h3><a href="#terms">Terms and conditions</a><a href="#privacy">Privacy policy</a></div></div>
+      <div class="container footer-grid"><div><a class="brand footer-brand" href="#top" aria-label="Molinex home"><span class="footer-icon-crop"><img src="assets/molinex-logo-transparent.png" alt="" /></span><span class="footer-wordmark">Molinex</span></a><p>Operational intelligence for better rice milling.</p></div><div><h3>Explore</h3><a href="#solution">Solution</a><a href="#features">Features</a><a href="#benefits">Benefits</a><a href="#plans">Plans</a></div><div><h3>Legal</h3><a href="#terms">Terms and conditions</a><a href="#privacy">Privacy policy</a></div></div>
       <div class="container footer-bottom"><span>© 2026 Vanguard. Molinex is an academic project.</span><span>English · Español</span></div>
     </footer>
+    <section class="legal-content" id="terms" aria-labelledby="terms-title"><div class="container"><h2 id="terms-title">Terms and conditions</h2><p>Molinex is presented as an academic project. Product availability, features and plan conditions are subject to validation and commercial agreement.</p></div></section>
+    <section class="legal-content" id="privacy" aria-labelledby="privacy-title"><div class="container"><h2 id="privacy-title">Privacy policy</h2><p>This prototype does not transmit or store contact form data. A production version will publish its data practices before collecting personal information.</p></div></section>
     <script src="script.js"></script>
   </body>
 </html>

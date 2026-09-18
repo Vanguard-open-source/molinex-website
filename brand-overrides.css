@@ -1,0 +1,56 @@
+:root {
+    --color-primary: #0b4f8a;
+    --color-primary-dark: #073763;
+    --color-primary-light: #eaf4fb;
+    --color-secondary: #4f8a2b;
+    --color-secondary-dark: #35651d;
+    --color-secondary-light: #eef7e8;
+    --color-accent: #f2b705;
+    --color-accent-hover: #d99f00;
+    --color-accent-dark: #a86f00;
+    --color-accent-light: #fff7d6;
+    --color-text-primary: #102a43;
+    --color-text-secondary: #486581;
+    --color-text-muted: #829ab1;
+    --color-text-on-dark: #ffffff;
+    --color-background: #f5f7fa;
+    --color-surface: #ffffff;
+    --color-border: #d9e2ec;
+    --color-success: #2e7d32;
+    --color-success-bg: #e8f5e9;
+    --color-info: #1976d2;
+    --color-info-bg: #e3f2fd;
+    --color-warning: #c77800;
+    --color-warning-bg: #fff4d6;
+    --color-danger: #c62828;
+    --color-danger-bg: #fdecec;
+    --color-neutral: #607d8b;
+    --color-neutral-bg: #eceff1;
+    --ink: var(--color-text-primary);
+    --muted: var(--color-text-secondary);
+    --teal: var(--color-primary);
+    --teal-dark: var(--color-primary-dark);
+    --mint: var(--color-primary-light);
+    --cream: var(--color-background);
+    --line: var(--color-border);
+    --white: var(--color-surface);
+    --shadow: 0 22px 60px rgba(7, 55, 99, 0.14);
+}
+
+.brand-logo { display: block; width: 155px; height: auto; }
+.footer-brand { display: inline-flex; align-items: center; min-height: 58px; gap: 8px; }
+.footer-icon-crop { display: block; width: 48px; height: 48px; overflow: hidden; flex: 0 0 48px; }
+.footer-icon-crop img { display: block; width: 218px; max-width: none; height: auto; transform: translate(-1px, -2px); }
+.footer-wordmark { color: #fff; font-weight: 800; font-size: 1.15rem; letter-spacing: .02em; }
+.button-accent { border-color: var(--color-accent); background: var(--color-accent); color: var(--color-primary-dark); }
+.button-accent:hover { border-color: var(--color-accent-hover); background: var(--color-accent-hover); color: var(--color-primary-dark); }
+.button-secondary { background: var(--color-primary); color: #fff; }
+.dashboard-card { border-color: #bdd6e8; background: linear-gradient(145deg, #fff, var(--color-primary-light)); }
+.chart span { background: linear-gradient(to top, var(--color-primary), var(--color-secondary)); }
+.accent-section { background: var(--color-primary-light); }
+.feature-card.featured { background: var(--color-primary); }
+.feature-card.featured p { color: var(--color-primary-light); }
+.icon-box { background: var(--color-secondary-light); color: var(--color-secondary-dark); }
+.plan-card.popular { border-color: var(--color-accent); background: var(--color-accent-light); }
+.popular-label { background: var(--color-accent); color: var(--color-primary-dark); }
+.cta-section, .site-footer { background: var(--color-primary-dark); }
