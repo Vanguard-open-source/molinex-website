@@ -1,0 +1,13 @@
+{
+  "nav": ["Solución", "Funciones", "Planes"],
+  "hero": ["Inteligencia operativa para molinos de arroz", "Convierte los datos de tu molino en mejores decisiones.", "Molinex conecta los datos de producción, calidad, materia prima y mantenimiento para reducir pérdidas, detectar anomalías y mejorar el rendimiento.", "Mejora tu molino", "Conoce Molinex →"],
+  "trust": ["✓ Datos en un solo lugar", "✓ Diseñado para molinos de arroz", "✓ SaaS basado en la web"],
+  "challenge": ["El desafío", "Las buenas decisiones necesitan información conectada.", "Datos dispersos", "Paradas inesperadas", "Pérdidas ocultas"],
+  "feature": ["Una plataforma, operaciones más claras", "Todo lo que tu equipo necesita para saber qué está pasando.", "Panel operativo", "Trazabilidad de lotes", "Control de mantenimiento", "Alertas y recomendaciones"],
+  "audience": ["Diseñado para tu equipo", "Una vista compartida para cada rol."],
+  "benefits": ["De los datos a la acción", "Beneficios que tu operación puede sentir."],
+  "process": ["Cómo funciona", "Un camino simple de los registros a las recomendaciones."],
+  "plans": ["Planes que crecen con tu molino", "Comienza con lo que necesitas hoy."],
+  "contact": ["¿Listo para mejorar tu operación?", "Encontremos el punto de partida ideal para tu molino.", "Solicitar información"],
+  "more": ["Explorar paneles →", "Cotización personalizada", "Conocer más", "Nombre completo", "Correo laboral", "Tamaño del molino", "¿Qué te gustaría mejorar?", "Formulario de demostración: conecta un backend antes de recopilar solicitudes."]
+}

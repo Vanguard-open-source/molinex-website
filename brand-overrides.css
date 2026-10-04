@@ -45,6 +45,9 @@
 .button-accent { border-color: var(--color-accent); background: var(--color-accent); color: var(--color-primary-dark); }
 .button-accent:hover { border-color: var(--color-accent-hover); background: var(--color-accent-hover); color: var(--color-primary-dark); }
 .button-secondary { background: var(--color-primary); color: #fff; }
+.language-switcher { display:flex; align-items:center; gap:5px; color:var(--muted); font-size:.8rem; font-weight:750; }
+.language-button { border:0; padding:4px 3px; background:transparent; color:var(--muted); font:inherit; cursor:pointer; }
+.language-button.active, .language-button:hover { color:var(--teal); }
 .dashboard-card { border-color: #bdd6e8; background: linear-gradient(145deg, #fff, var(--color-primary-light)); }
 .chart span { background: linear-gradient(to top, var(--color-primary), var(--color-secondary)); }
 .accent-section { background: var(--color-primary-light); }
