@@ -1,0 +1,13 @@
+{
+  "nav": ["Solution", "Features", "Plans"],
+  "hero": ["Operational intelligence for rice mills", "Turn mill data into better decisions.", "Molinex connects production, quality, raw materials and maintenance data so your team can reduce losses, detect anomalies and improve performance.", "Improve your mill", "Discover Molinex →"],
+  "trust": ["✓ Data in one place", "✓ Built for rice mills", "✓ Web-based SaaS"],
+  "challenge": ["The challenge", "Good decisions need connected information.", "Scattered data", "Unexpected downtime", "Hidden losses"],
+  "feature": ["One platform, clearer operations", "Everything your team needs to see what is happening.", "Operational dashboard", "Lot traceability", "Maintenance control", "Alerts and recommendations"],
+  "audience": ["Designed around your team", "A shared view for every role."],
+  "benefits": ["From data to action", "Benefits your operation can feel."],
+  "process": ["How it works", "A simple path from records to recommendations."],
+  "plans": ["Plans that grow with your mill", "Start with what you need today."],
+  "contact": ["Ready to improve your operation?", "Let’s find the right starting point for your mill.", "Request information"],
+  "more": ["Explore dashboards →", "Custom quote", "Learn more", "Full name", "Work email", "Mill size", "What would you like to improve?", "Demo form: connect a backend before collecting customer requests."]
+}
