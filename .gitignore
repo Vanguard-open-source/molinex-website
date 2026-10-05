@@ -1,0 +1,10 @@
+# Local Codex and agent metadata
+.agents/
+.codex/
+
+# Local IDE settings
+.idea/
+
+# Local analysis artifacts
+graphify-out/
+package-lock.json
