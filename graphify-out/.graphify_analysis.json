@@ -1,0 +1,68 @@
+{
+  "communities": {
+    "0": [
+      "script",
+      "script_form",
+      "script_menu",
+      "script_menutoggle",
+      "script_status",
+      "script_t"
+    ],
+    "1": [
+      "script_loadtranslations",
+      "script_setlanguage",
+      "script_text"
+    ]
+  },
+  "cohesion": {
+    "0": 0.3333333333333333,
+    "1": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "script_setlanguage",
+      "label": "setLanguage()",
+      "degree": 3
+    },
+    {
+      "id": "script_text",
+      "label": "text()",
+      "degree": 2
+    },
+    {
+      "id": "script_loadtranslations",
+      "label": "loadTranslations()",
+      "degree": 2
+    },
+    {
+      "id": "script_menutoggle",
+      "label": "menuToggle",
+      "degree": 1
+    },
+    {
+      "id": "script_menu",
+      "label": "menu",
+      "degree": 1
+    },
+    {
+      "id": "script_t",
+      "label": "T",
+      "degree": 1
+    },
+    {
+      "id": "script_form",
+      "label": "form",
+      "degree": 1
+    },
+    {
+      "id": "script_status",
+      "label": "status",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}

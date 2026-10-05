@@ -1,0 +1,216 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "loadTranslations()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L40",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "script_loadtranslations",
+      "community": 1,
+      "norm_label": "loadtranslations()"
+    },
+    {
+      "label": "setLanguage()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L21",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "script_setlanguage",
+      "community": 1,
+      "norm_label": "setlanguage()"
+    },
+    {
+      "label": "text()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L20",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "script_text",
+      "community": 1,
+      "norm_label": "text()"
+    },
+    {
+      "label": "script.js",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "script",
+      "community": 0,
+      "norm_label": "script.js"
+    },
+    {
+      "label": "form",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "script_form",
+      "community": 0,
+      "norm_label": "form"
+    },
+    {
+      "label": "menu",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "script_menu",
+      "community": 0,
+      "norm_label": "menu"
+    },
+    {
+      "label": "menuToggle",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "script_menutoggle",
+      "community": 0,
+      "norm_label": "menutoggle"
+    },
+    {
+      "label": "status",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "script_status",
+      "community": 0,
+      "norm_label": "status"
+    },
+    {
+      "label": "T",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "script_t",
+      "community": 0,
+      "norm_label": "t"
+    }
+  ],
+  "links": [
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script_loadtranslations",
+      "target": "script_setlanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script_setlanguage",
+      "target": "script_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script",
+      "target": "script_menutoggle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script",
+      "target": "script_menu",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script",
+      "target": "script_text",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script",
+      "target": "script_setlanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script",
+      "target": "script_form",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script",
+      "target": "script_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script",
+      "target": "script_loadtranslations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "script",
+      "target": "script_t",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "65dc9209da1cbbba4f1414d0b191506460804f8c"
+}
